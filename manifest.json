@@ -1,0 +1,17 @@
+{
+  "manifest_version": 2,
+ 
+  "name": "Modify Rancher2 tabs css",
+  "version": "0.1.0",
+  "description": "Keep tab element on top of page",
+  
+  "permissions": [
+      "activeTab"
+    ],
+  
+  "content_scripts": [{
+    "css": ["styles.css"],
+    "matches": ["<YOUR_RANCHER2_WEBPAGE>/*"]
+  }]
+ 
+}

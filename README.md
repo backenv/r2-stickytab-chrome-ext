@@ -1,10 +1,11 @@
 # r2-stickytab-chrome-ext
-Rancher v2 sticky tabs, hides [ Download YAML ] [ Delete ] buttons, include r2-sticky.css as new css rule
+Rancher v2 sticky tabs, hides [ Download YAML ] [ Delete ] buttons, includes styles.css as new css rule
 
 # How to use it
 
 - Fork the repository or Clone it to your computer.
-- Edit `manifest.json` and replace `<YOUR_RANCHER2_WEBPAGE>`.
+- Edit `manifest.json` and replace `<YOUR_RANCHER2_WEBPAGE>` with the url of your host
+  - e.g.: `https://myrancher.example.com`.
 - Download from repository as zip or Compress as `zip` file your local folder.
 - Open a tab in Chrome browser to `chrome://extensions`.
 - Drag and drop your file.

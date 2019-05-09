@@ -1,0 +1,10 @@
+/*-- Sticky application tabs --*/
+section.header.has-tabs {
+  position: sticky;
+  top: 0;
+  background-color: #fff;
+  z-index: 10;
+  margin-top: 2vh;
+  /*-- uncomment to show search element --*/
+  /* width: 75% */
+}
